@@ -11,7 +11,7 @@ npm start
 
 When you open the url you will see the dashboard as shown in the following image:
 
-![Alt Text]('assets/Screenshot_2022-12-26-01-01-43_31546.png')
+![Alt Text](assets/Screenshot_2022-12-26-01-01-43_31546.png)
 
 ### Prisma dashboard
 
