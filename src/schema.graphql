@@ -1,0 +1,17 @@
+type Query {
+	videos(page: Int, pageSize: Int): [Video]
+	search(query: String, page: Int, pageSize: Int): [Video]
+}
+
+type Mutation {
+	fetchVideos(query: String, Order: String, maxResults: Int): String!
+}
+
+type Video {
+	id: ID!
+	videoId: String!
+	title: String!
+	description: String
+	publishedAt: String!
+	thumbnail: String
+}
